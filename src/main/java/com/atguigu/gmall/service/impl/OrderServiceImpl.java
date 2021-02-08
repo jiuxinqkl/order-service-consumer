@@ -12,7 +12,7 @@ import com.atguigu.gmall.service.UserService;
 /**
  * 1、将服务提供者注册到注册中心（暴露服务）
  * 		1）、导入dubbo依赖（2.6.2）\操作zookeeper的客户端(curator)
- * 		2）、配置服务提供者
+ * 		2）、配置服务提供者 实现OrderService
  * 
  * 2、让服务消费者去注册中心订阅服务提供者的服务地址
  * @author lfy
